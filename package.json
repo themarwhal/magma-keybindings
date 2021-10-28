@@ -1,0 +1,20 @@
+{
+    "name": "magma-keybindings",
+    "displayName": "magma-keybindings",
+    "description": "Import Magma keybindings into VSCode",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "categories": [
+        "Keymaps"
+    ],
+    "contributes": {
+        "keybindings": [
+            {
+                "key": "ctrl+.",
+                "command": "workbench.action.showCommands"
+            }
+        ]
+    }
+}
